@@ -6,5 +6,5 @@ curl_output=$(curl -k -f https://www.pilotdog.tech/api/get_eligible_proof?addres
 # Menyimpan hasil output curl ke dalam file Update.tsx
 echo "$curl_output" >> Update.tsx
 
-# Menambahkan pesan bahwa Update.tsx telah diperbarui
+# Menambahkan pesan bahwa Update.tsx telah diperbaru
 echo "Check Update.tsx." 
